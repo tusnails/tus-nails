@@ -192,10 +192,24 @@ box-shadow:0 0 25px #ff4fa3;
     }
 
 }
-    @media (max-width: 768px) {
-    .length-guide {
-        display: none;
+   @media (max-width: 768px) {
+
+    .prices{
+        flex-direction:column;
+        align-items:center;
     }
+
+    .length-guide{
+        width:100%;
+        max-width:220px;
+        display:block;
+        margin:auto;
+    }
+
+    .card{
+        width:95%;
+    }
+
 }
 </style>
 </head>
@@ -265,7 +279,7 @@ BOOK NOW
 
 <div class="prices">
 <div class="card">
-    <img class="length-guide" src="НАВИГАТОР.jpg"
+    <img class="length-guide" src="НАВИГАТОР.jpg" alt="Навигатор по длине" style="width:100%; border-radius:15px;">
 </div>
 
 
@@ -316,7 +330,7 @@ BOOK NOW
 </div>
 
 <a class="btn" href="https://yandex.ru/maps/?text=Ленинградская%20область,%20Гатчинский%20район,%20поселок%20Суйда,%20улица%20Центральная,%2012" target="_blank">
-📍 OPEN MAP
+📍 LOCATION
 </a>
     
 <p>
