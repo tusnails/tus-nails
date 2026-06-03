@@ -26,17 +26,18 @@ color:white;
 
 
 header{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8));
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding-top:60px;
+    padding-bottom:60px;
 }
 
 .hero{
 max-width:800px;
+width:100%;
 }
 
 h1{
@@ -87,7 +88,7 @@ color:#ff4fb5;
     box-shadow:0 0 20px #ff4fb5;
     line-height:1.8;
     font-size:18px;
-    text-align:center;
+    text-align:left;
 }
     .about:hover{
     box-shadow:0 0 35px #ff4fb5;
@@ -156,7 +157,7 @@ color:#ff4fb5;
 display:block;
 width:250px;
 margin:15px auto;
-padding:15px;
+padding:12px;
 text-align:center;
 text-decoration:none;
 background:#ff4fa3;
@@ -208,6 +209,13 @@ box-shadow:0 0 25px #ff4fa3;
 
     .card{
         width:95%;
+    }
+
+}
+    @media (max-width:768px){
+
+    h2{
+        font-size:32px;
     }
 
 }
