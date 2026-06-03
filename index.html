@@ -190,31 +190,22 @@ box-shadow:0 0 25px #ff4fa3;
     .card{
         width:95%;<div class="prices">
 
-<div class="card">
-    <img class="length-guide" src="НАВИГАТОР.jpg" alt="Навигатор по длине">
-</div>
+@media (max-width:768px){
 
-<div class="card">
-    <h3>Покрытие</h3>
-    <p>S — 1700 ₽</p>
-    <p>M — 1800 ₽</p>
-</div>
+    .prices{
+        flex-direction:column;
+        align-items:center;
+    }
 
-<div class="card">
-    <h3>Маникюр</h3>
-    <p>Без покрытия — 1100 ₽</p>
-    <p>С покрытием — 1300 ₽</p>
-</div>
+    .length-guide{
+        width:100%;
+        max-width:220px;
+        display:block;
+        margin:auto;
+    }
 
-<div class="card">
-    <h3>Дополнительно</h3>
-    <p>Снятие — 150 ₽</p>
-    <p>Дизайн — 200–500 ₽</p>
-    <p>Френч — 200 ₽</p>
-    <p>Доп. окно — 150 ₽</p>
-</div>
-
-</div>
+    .card{
+        width:95%;
     }
 
     .card img{
